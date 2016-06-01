@@ -1,5 +1,6 @@
-require 'json'
 require 'hash-joiner'
+require 'jekyll'
+require 'json'
 require 'open-uri'
 
 module JekyllGet

@@ -9,4 +9,7 @@ Gem::Specification.new do |s|
   s.files       = ['lib/jekyll_get.rb']
   s.homepage    = 'http://rubygems.org/gems/jekyll_get'
   s.license     = 'CC0-1.0'
+
+  s.add_runtime_dependency 'hash-joiner', '~> 0.0.7'
+  s.add_runtime_dependency 'jekyll', '~> 3.1', '>= 3.1.6'
 end
