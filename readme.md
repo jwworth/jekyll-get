@@ -1,10 +1,14 @@
 # Install
 
-Add this file to `_plugins` in the root of your Jekyll site.
+Add this to your Gemfile:
+
+```ruby
+gem 'jekyll_get'
+```
 
 # Configure
 
-This plugin reads settings from the `_config.yml` file. Add settings as attributes or an array of attributes for multiple files.
+This gem reads settings from the `_config.yml` file. Add settings as attributes or an array of attributes for multiple files.
 
 ## Example
 
